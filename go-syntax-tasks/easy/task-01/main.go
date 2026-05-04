@@ -10,3 +10,15 @@ func main() {
 	x := 10
 	_ = x
 }
+
+// Исправление
+
+package main
+
+import "fmt"
+
+func main() {
+	x := 10
+	_ = x
+	fmt.Println(x)
+}
